@@ -4,6 +4,8 @@ import { join } from "node:path";
 const line =
   "After an hour, we agreed this meeting had no agenda, no decision, and no reason to exist — which took an hour to agree on.";
 
+// One line is the whole point: keep the entry exactly one line long.
+
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
 try {
